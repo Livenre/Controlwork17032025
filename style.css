@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.textplace {
+  margin: 10px auto;
+  width: 300px;
+  position: relative;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.error {
+  color: lightcoral;
+  font-size: 12px;
+  display: none;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  width: 305px;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+#submitButton {
+  width: 150px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+#submitButton:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}

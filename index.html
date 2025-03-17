@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Реєстрація</title>
+<link rel="stylesheet" href="style.css">
+</head>
+  <body>
+<h1>Реєстрація</h1>
+
+<form id="registrationForm">
+<div class="textplace">
+    <input type="email" id="email" placeholder="E-mail">
+    <div class="error" id="emailError">Введіть коректний e-mail</div>
+</div>
+
+<div class="textplace">
+    <input type="password" id="password" placeholder="Пароль">
+    <div class="error" id="passwordError">Пароль має бути щонайменше 5 символів, містити одну велику літеру та одне число</div>
+</div>
+
+<div class="textplace">
+    <input type="password" id="confirmPassword" placeholder="Підтвердити пароль">
+    <div class="error" id="confirmPasswordError">Пароль та підтвердження паролю не співпадають</div>
+</div>
+
+<div class="checkbox-container">
+    <input type="checkbox" id="agree">
+    Я згоден з умовами ліцензійної угоди
+</div>
+
+<input type="button" id="submitButton" value="Відправити" disabled>
+</form>
+
+<script src="index.js"></script>
+  </body>
+</html>
