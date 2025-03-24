@@ -1,0 +1,39 @@
+{
+  "name": "control-work",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000o\u0000n\u0000t\u0000r\u0000o\u0000l\u0000w\u0000o\u0000r\u0000k\u00001\u00007\u00000\u00003\u00002\u00000\u00002\u00005\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "vitest --coverage",
+    "test:browser": "vitest --workspace=vitest.workspace.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Livenre/Controlwork17032025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Livenre/Controlwork17032025/issues"
+  },
+  "homepage": "https://github.com/Livenre/Controlwork17032025#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@testing-library/dom": "^10.4.0",
+    "@vitest/browser": "^3.0.9",
+    "@vitest/coverage-v8": "^3.0.9",
+    "@vitest/ui": "^3.0.9",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "jsdom": "^26.0.0",
+    "playwright": "^1.51.1",
+    "vite": "^6.2.2",
+    "vitest": "^3.0.9"
+  },
+  "dependencies": {
+    "util": "^0.12.5"
+  }
+}

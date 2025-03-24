@@ -1,4 +1,5 @@
-const registrationForm = document.getElementById('registrationForm');
+console.log('Скрипт работает!');
+
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
 const confirmPasswordInput = document.getElementById('confirmPassword');
